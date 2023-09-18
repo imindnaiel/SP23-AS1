@@ -1,0 +1,18 @@
+ld one 
+st i 
+j loopTest 
+ld i 
+put 
+j loopCont 
+ld i 
+cmp ten 
+jg out 
+j loopBody 
+ld i 
+add one 
+st i 
+j loopTest 
+halt 
+const 1 
+const 10 
+const 

@@ -1,0 +1,15 @@
+get 
+st width 
+get 
+st len 
+ld width 
+st area 
+ld len 
+mul area 
+st area 
+ld area 
+put 
+halt 
+const 
+const 
+const 

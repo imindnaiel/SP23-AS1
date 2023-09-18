@@ -1,0 +1,13 @@
+ld one 
+st area 
+get 
+mul area 
+st area 
+get 
+mul area 
+st area 
+ld area 
+put 
+halt 
+const 1 
+const 

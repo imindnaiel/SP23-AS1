@@ -1,0 +1,23 @@
+ld zero 
+st sum 
+ld one 
+st i 
+get 
+st n 
+ld i 
+mul i 
+add sum 
+st sum 
+ld i 
+add one 
+st i 
+cmp n 
+jl loop 
+ld sum 
+put 
+halt 
+const 0 
+const 1 
+const 
+const 
+const 

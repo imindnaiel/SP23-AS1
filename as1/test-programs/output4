@@ -1,0 +1,29 @@
+ld zero 
+st first 
+ld one 
+st second 
+get 
+st n 
+ld one 
+st i 
+ld first 
+put 
+add second 
+st tmp 
+ld second 
+st first 
+ld tmp 
+st second 
+ld i 
+add one 
+st i 
+cmp n 
+jle loop 
+halt 
+const 0 
+const 1 
+const 
+const 
+const 
+const 
+const 
